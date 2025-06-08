@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "dev060627" {
-   bucket = "dev060625"
+resource "aws_s3_bucket" "dev060628" {
+   bucket = "dev060628"
    tags = {
     name = "devbucket"
    }
