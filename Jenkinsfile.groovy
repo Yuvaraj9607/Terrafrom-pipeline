@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Terraform Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/Yuvaraj9607/Terrafrom-pipeline'
+                git branch: 'main', url: 'https://github.com/Yuvaraj9607/Terrafrom-pipeline'
             }
         }
 
